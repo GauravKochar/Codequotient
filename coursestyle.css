@@ -1,0 +1,37 @@
+#newcourse,#newsection
+{  
+	padding:10px;
+ 	width:600px;
+ 	height:300px;
+	border:2px solid black;
+	border-style:dotted;
+	background-color:gray;
+	margin-left:300;
+	
+}
+#maindiv
+{
+
+	margin-left: 27;
+	width:1250px;
+ 	height:500px;
+background-color:e9edf2;
+text-align: center;
+padding:5;
+border-style:dotted;
+
+}
+#addcourse,#addsection
+{
+	border-radius: 2px;
+	width:70px;
+	height:30px;
+}
+#manipulate
+{
+	margin-left:40%;
+}
+#table {
+	background-color:gray;
+	
+}

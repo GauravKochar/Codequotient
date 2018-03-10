@@ -1,0 +1,17 @@
+#codingquestiondiv
+{
+	margin-left: 200px;
+	padding :30px;
+	display: inline-block;
+	
+
+}
+#questitle,#question,#quesInput,#quesOutput,#SampleInput,#sampleoutput,#sampleoutput
+{
+	width:250px;
+	height:50px;
+}
+#addtextcases
+{
+	width:120px;
+}

@@ -1,0 +1,76 @@
+#newsection
+{  
+	padding:20px;
+ 	width:600px;
+ 	height:750px;
+	border:2px solid black;
+	border-style:dotted;
+	background-color:gray;
+	margin-left:250;
+	
+}
+#opt1,#opt2,#opt3,#opt4,#coursename,#sectionname,#questionType,#RightAnswer
+{
+height:40;
+width:300;
+
+}
+#addoption
+{
+	
+	height:250;
+	padding:10;
+	
+
+}
+#SubmitQuestion,#Submit2Question
+{
+	height:30;
+	width:100;
+	border-radius: 5: 
+}
+#main{
+	width:600px;
+ 	height:400px;
+		margin-left:20;
+		
+		
+	}
+
+#new
+{
+	
+	padding:10;
+	
+}
+#addquestion
+{
+	padding:10;
+	margin-top:20;
+	
+
+}
+#maindiv
+{
+
+	margin-left: 27;
+background-color:e9edf2;
+
+padding:10;
+border-style:dotted;
+
+}
+#addcourse,#addsection
+{
+	border-radius: 2px;
+	width:70px;
+	height:30px;
+}
+#manipulate
+{
+	margin-left:40%;
+}
+#table {
+	background-color:gray;
+	
+}
