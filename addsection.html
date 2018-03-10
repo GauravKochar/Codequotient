@@ -1,0 +1,35 @@
+<html>
+<head>
+<link href="./css/coursestyle.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<div id="maindiv">
+<h1>Add Section to your Course</h1>
+<div id="newsection" >
+<h3>
+<div style="display: inline-block; ">Section name:</div> 
+<textarea  id="sectionText" rows="10" cols="60" placeholder="Enter a Section Name "  style="float:right"></textarea><br><br>
+<input type="button" id="addsection" value="save">
+</h3>
+</div>
+</div>
+<div id="wrapper" style="display:block;">
+<h1>Section List</h1>
+
+</div>
+<div >
+<table  id="table" cellspacing="10">
+<tr>
+
+<th>Section ID</th>
+<th>Section Name</th>
+<th>Add Questions</th>
+<th>Delete Section</th>
+<th>Edit Section</th>
+</tr>
+</table>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="addsection.js"></script>
+</body>
+</html>

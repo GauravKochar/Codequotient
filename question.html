@@ -1,0 +1,47 @@
+<html>
+<head>
+<link href="./css/questionstyle.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<div id="maindiv">
+<h2><marquee>Add Questions to your Course</marquee></h2>
+<div id="newsection" >
+	<div id="main">
+			<div id="new">
+				<label >Course : &nbsp;&nbsp;</label> 
+				<input type="text" id="coursename" name="course"><br><br>
+				<label for="sectionname">Section :&nbsp;&nbsp; </label>  
+			    <input type="text" id="sectionname" name="sectionname"><br><br>
+				<label for ="questionType">Question Type :&nbsp;&nbsp; </label>   
+				<select id="questionType" > <option>Select</option><option value="MCQ">MCQ</option><option value="Coding">Coding</option></select><br><br>
+			</div>
+
+			<div id="addquestion" style="display:none;">
+				<label >Question : &nbsp;&nbsp;</label> <br><br>
+				<textarea id="Question" placeholder="Enter a Question" rows="10" cols="50"></textarea>
+			</div>
+
+			<div  id="addoption" style="display:none;">
+			 <input type="text" id="opt1" placeholder="Option1"><br><br>
+			  <input type="text" id="opt2" placeholder="Option2"><br><br>
+			   <input type="text" id="opt3" placeholder="Option3"><br><br>
+			    <input type="text" id="opt4" placeholder="Option4"><br><br>
+			
+				<label for="RightAnswer">Right Answer :&nbsp;&nbsp; </label>  
+				  <input type="text" id="RightAnswer" name="RightAnswer"><br><br>
+				<input type="submit" name="submit" id="SubmitQuestion" value="Submit">
+				<input type="submit" name="submit" id="Submit2Question" value="Submitt" style="display:none">
+		</div>
+	<br>
+	</div>
+
+</div>
+	<br>
+<br>
+<table id="questionTable" cellspacing="20"  cellpadding="10" border="3"  style="text-align:center;">
+	</table>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="question.js"></script>
+</body>
+</html>

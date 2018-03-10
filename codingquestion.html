@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="plugin/codemirror-5.34.0/lib/codemirror.css">
+	<link href="./css/codingstyle.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+	<div>
+	<div id="codingquestiondiv">
+		<label>Question Title :</label>
+		<textarea id="questitle"></textarea><br>
+		<br>
+
+		<label>Question :</label>
+		<textarea id="question"></textarea><br>
+		<br>
+
+		<label>Input :    </label>
+		<textarea id="quesInput"></textarea><br>
+		<br>
+		<label>Output :   </label>
+		<textarea id="quesOutput"></textarea><br>
+		<br>
+		<label>SampleInput :</label>
+		<textarea id="SampleInput"></textarea><br>
+		<br>
+		<label>sampleoutput :</label>
+		<textarea id="sampleoutput"></textarea><br>
+		<br>
+
+		<input type="button" id="addtextcases" value="Add TestCases"></input>
+		<br><br>
+		<input type="submit" id="addcodingquestion"></input>
+		<input type="submit" id="editcodingquestion" style="display: none"></input>
+
+	</div>
+</div>
+<table id="questionTable" cellspacing="20"  cellpadding="10" border="3"  style="text-align:center;">
+	</table>
+	<script src="plugin\codemirror-5.34.0\lib/codemirror.js"></script>
+<script src="jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="codingquestion.js"></script>
+</body>
+</html>
